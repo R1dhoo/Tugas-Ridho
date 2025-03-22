@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: green;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+#profil {
+    
+    align-items: center;
+    background-color: #dcdcdc;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.fotoprofil {
+    float: left;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-bottom: 10px;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #fdfce8;
+    font-weight: bold;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+
+
+#keterampilan {
+    background-color: #dcdcdc;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    
+}
+
+#keterampilan h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#keterampilan ul {
+    list-style-type: disc;
+    font-size: 18px;
+}
+
+#keterampilan ul li::marker {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+#kontak {
+    background-color: #dcdcdc;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.email {
+    height: 30px;
+    width: 30px;
+    float: left;
+    display: flex;
+}
+
+.telepon {
+    height: 30px;
+    width: 30px;
+    float: left;
+    display: flex;
+}
+
+.alamat {
+    height: 30px;
+    width: 30px;
+    float: left;
+    display: flex;
+}
